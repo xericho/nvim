@@ -5,6 +5,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Prerequisites
 1. Neovim >= 0.9.0 (needs to be built with LuaJIT)
+    ```
+    brew install neovim
+    ```
 1. Git >= 2.19.0 (for partial clones support)
 1. a Nerd Font(v3.0 or greater)
     ```
@@ -14,3 +17,8 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Setup
 1. Run `git clone https://github.com/xericho/nvim ~/.config/nvim`
+1. (Optional) Configure `.zshrc`:
+   ```
+   export EDITOR=nvim
+   alias vim=nvim
+   ```
