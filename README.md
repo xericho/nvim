@@ -17,8 +17,10 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Setup
 1. Run `git clone https://github.com/xericho/nvim ~/.config/nvim`
+1. Run `brew install ripgrep`
 1. (Optional) Configure `.zshrc`:
    ```
    export EDITOR=nvim
    alias vim=nvim
    ```
+
