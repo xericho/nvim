@@ -3,3 +3,7 @@
 -- Add any additional options here
 
 vim.opt.pumblend = 0
+
+-- Use "qq" to go back to normal mode
+vim.keymap.set("i", "qq", "<Esc>")
+vim.keymap.set("v", "qq", "<Esc>")
