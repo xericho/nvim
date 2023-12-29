@@ -8,6 +8,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
     ```
     brew install neovim
     ```
+    If on Linux, you might need to [build manually](https://github.com/neovim/neovim/blob/master/BUILD.md). 
 1. Git >= 2.19.0 (for partial clones support)
 1. a Nerd Font(v3.0 or greater)
     ```
